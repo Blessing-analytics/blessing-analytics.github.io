@@ -4,129 +4,126 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Atoyebi Simon Blessing | Data Analyst Portfolio</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #f7f9fc; color: #333; }
-    header { background: #0f172a; color: #fff; padding: 2rem; text-align: center; }
-    header h1 { margin: 0; font-size: 2.2rem; }
-    header p { margin: .5rem 0 0; }
-    section { padding: 2rem; max-width: 1100px; margin: auto; }
-    h2 { color: #0f172a; margin-bottom: 1rem; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; }
-    .card { background: #fff; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,.08); padding: 1.5rem; }
-    .card h3 { margin-top: 0; }
-    .tags span { display: inline-block; background: #e5e7eb; padding: .25rem .6rem; border-radius: 6px; font-size: .8rem; margin-right: .4rem; }
-    a.btn { display: inline-block; margin-top: 1rem; padding: .6rem 1rem; background: #2563eb; color: #fff; border-radius: 8px; text-decoration: none; }
-    footer { background: #0f172a; color: #fff; text-align: center; padding: 1.5rem; }
-  </style>
+  <meta name="description" content="Data Analyst portfolio showcasing Python, SQL, data analysis, visualization, and machine learning projects." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-<header>
-  <h1>Atoyebi Simon Blessing</h1>
-  <p>Entry-Level Data Analyst | Python • SQL • Excel</p>
-  <p>
-    <a href="https://github.com/Blessing-analytics" style="color:#93c5fd">GitHub</a> | 
-    <a href="https://www.linkedin.com/in/atoyebi-simon-blessing" style="color:#93c5fd">LinkedIn</a>
-  </p>
-</header>
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <h1>Atoyebi Simon Blessing</h1>
+    <h2>Data Analyst | Python • SQL • Data Visualization</h2>
+    <p>
+      Computer Science undergraduate and Data Analyst with hands-on experience in Python, SQL, and data visualization.
+      I analyze real-world datasets to uncover insights, improve decision-making, and solve business problems.
+    </p>
+    <p class="cta">Open to internships, entry-level & junior data analyst roles</p>
+  </header>
 
-<section>
-  <h2>About Me</h2>
-  <p>
-    I am a Computer Science undergraduate and certified Data Analyst with hands-on experience in data cleaning,
-    exploratory data analysis, customer segmentation, churn analysis, and SQL-based reporting. I enjoy turning raw
-    data into actionable insights that support business decision-making.
-  </p>
-</section>
+  <!-- PROJECTS SECTION -->
+  <section id="projects">
+    <h2>Projects</h2>
 
-<section>
-  <h2>Projects</h2>
-  <div class="grid">
-
-    <div class="card">
-      <h3>Sales Analysis (Python)</h3>
-      <img src="images/sales-analysis.png" alt="Sales Analysis Dashboard" style="width:100%;border-radius:8px;margin-bottom:.8rem;">
-      <p>Analyzed 10,000+ retail sales records to identify revenue trends, top-performing products, and peak sales periods.</p>
+    <!-- PROJECT 1 -->
+    <div class="project">
+      <h3>Sales Performance Analysis (Python)</h3>
+      <p>
+        Analyzed 10,000+ sales transactions using Python to evaluate revenue trends, profitability, and product performance.
+        Identified top-performing categories and underperforming regions to support data-driven business decisions.
+      </p>
       <ul>
-        <li>Improved visibility into monthly revenue performance and category contribution</li>
-        <li>Identified top 20% products contributing majority of revenue</li>
+        <li>Cleaned and analyzed large sales datasets using Pandas and NumPy</li>
+        <li>Created visualizations to track monthly sales and profit trends</li>
+        <li>Generated insights to improve revenue forecasting and inventory planning</li>
       </ul>
-      <div class="tags">
-        <span>Python</span><span>Pandas</span><span>EDA</span><span>Visualization</span>
-      </div>
-      <a class="btn" href="https://github.com/Blessing-analytics/superstore-sales-analysis">View Project</a>
-    </div>
-<a class="btn" href="https://github.com/Blessing-analytics/superstore-sales-analysis">View Project</a>
+      <p><strong>Tools:</strong> Python, Pandas, Matplotlib, Seaborn</p>
+      <p><a href="https://github.com/Blessing-analytics/superstore-sales-analysis" target="_blank">View Project on GitHub</a></p>
+      <!-- Images to add -->
+      <!-- images/sales-python-chart.png -->
+      <!-- images/sales-python-code.png -->
     </div>
 
-    <div class="card">
-      <h3>Customer Segmentation (RFM Analysis)</h3>
-      <img src="images/customer-segmentation.png" alt="Customer Segmentation Chart" style="width:100%;border-radius:8px;margin-bottom:.8rem;">
-      <p>Segmented customers using Recency, Frequency, and Monetary metrics to support targeted marketing decisions.</p>
+    <!-- PROJECT 2 -->
+    <div class="project">
+      <h3>Customer Segmentation using RFM Analysis</h3>
+      <p>
+        Performed customer segmentation using Recency, Frequency, and Monetary (RFM) analysis to identify high-value and at-risk customers.
+        Enabled targeted marketing and retention strategies based on customer behavior.
+      </p>
       <ul>
-        <li>Classified customers into loyal, high-value, and at-risk segments</li>
-        <li>Enabled data-driven retention and upselling strategies</li>
+        <li>Calculated RFM metrics from transactional data</li>
+        <li>Segmented customers into meaningful behavioral groups</li>
+        <li>Visualized customer segments to support marketing decisions</li>
       </ul>
-      <div class="tags">
-        <span>Python</span><span>RFM</span><span>Customer Analytics</span>
-      </div>
-      <a class="btn" href="https://github.com/Blessing-analytics/customer-segmentation-analysis">View Project</a>
-    </div>
-<a class="btn" href="https://github.com/Blessing-analytics/customer-segmentation-analysis">View Project</a>
+      <p><strong>Tools:</strong> Python, Pandas, Data Visualization</p>
+      <p><a href="https://github.com/Blessing-analytics/customer-segmentation-analysis" target="_blank">View Project on GitHub</a></p>
+      <!-- images/rfm-segmentation-chart.png -->
+      <!-- images/rfm-segmentation-code.png -->
     </div>
 
-    <div class="card">
-      <h3>Customer Churn Prediction</h3>
-      <img src="images/churn-analysis.png" alt="Customer Churn Analysis" style="width:100%;border-radius:8px;margin-bottom:.8rem;">
-      <p>Analyzed customer behavior data and built churn prediction models to identify factors driving customer attrition.</p>
-      <ul>
-        <li>Compared churned vs retained customers across tenure and usage metrics</li>
-        <li>Highlighted key churn drivers to support retention strategies</li>
-      </ul>
-      <div class="tags">
-        <span>Python</span><span>Churn Analysis</span><span>Predictive Analytics</span>
-      </div>
-      <a class="btn" href="https://github.com/Blessing-analytics/customer-churn-prediction">View Project</a>
-    </div>
-<a class="btn" href="https://github.com/Blessing-analytics/customer-churn-prediction">View Project</a>
-    </div>
-
-    <div class="card">
+    <!-- PROJECT 3 -->
+    <div class="project">
       <h3>SQL Sales Analysis (MySQL)</h3>
-      <img src="images/sql-analysis.png" alt="SQL Sales Analysis" style="width:100%;border-radius:8px;margin-bottom:.8rem;">
-      <p>Performed structured data analysis using complex SQL queries to answer key business questions.</p>
+      <p>
+        Conducted in-depth sales analysis using SQL to extract key performance indicators such as total sales, profit, and average order value.
+        Analyzed monthly trends and category-level performance using complex queries.
+      </p>
       <ul>
-        <li>Used JOINs, subqueries, and aggregations for reporting</li>
-        <li>Generated insights on sales performance and customer activity</li>
+        <li>Wrote advanced SQL queries using JOINs, GROUP BY, subqueries, and date functions</li>
+        <li>Calculated KPIs including total sales, profit, and AOV</li>
+        <li>Identified high-profit categories and seasonal trends</li>
       </ul>
-      <div class="tags">
-        <span>SQL</span><span>MySQL</span><span>Data Analysis</span>
-      </div>
-      <a class="btn" href="https://github.com/Blessing-analytics/sql-sales-analysis-mysql">View Project</a>
-    </div>
-<a class="btn" href="https://github.com/Blessing-analytics/sql-sales-analysis-mysql">View Project</a>
+      <p><strong>Tools:</strong> MySQL</p>
+      <p><a href="https://github.com/Blessing-analytics/sql-sales-analysis-mysql" target="_blank">View Project on GitHub</a></p>
+      <!-- images/sql-analysis-code.png -->
+      <!-- images/sql-analysis-results.png -->
     </div>
 
-  </div>
-</section>
+    <!-- PROJECT 4 -->
+    <div class="project">
+      <h3>Customer Churn Prediction</h3>
+      <p>
+        Built a machine learning model to predict customer churn using historical customer data.
+        Identified key factors influencing customer retention and churn risk.
+      </p>
+      <ul>
+        <li>Performed data cleaning, feature engineering, and exploratory analysis</li>
+        <li>Trained and evaluated machine learning models to predict churn probability</li>
+        <li>Highlighted actionable factors affecting customer retention</li>
+      </ul>
+      <p><strong>Tools:</strong> Python, Pandas, Scikit-learn</p>
+      <p><a href="https://github.com/Blessing-analytics/customer-churn-prediction" target="_blank">View Project on GitHub</a></p>
+      <!-- images/churn-model-results.png -->
+      <!-- images/churn-feature-importance.png -->
+    </div>
 
-<section>
-  <h2>Skills</h2>
-  <p>
-    Python (Pandas, NumPy) • SQL (MySQL) • Excel • Data Cleaning • Exploratory Data Analysis •
-    Data Visualization • Customer Segmentation • Churn Analysis • Git & GitHub
-  </p>
-</section>
+  </section>
 
-<section>
-  <h2>Contact</h2>
-  <p>Email: <strong>atoblessing86699@gmail.com</strong></p>
-  <p>Phone: <strong>09064755383</strong></p>
-</section>
+  <!-- SKILLS SECTION -->
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <ul class="skills">
+      <li>Python (Pandas, NumPy, Matplotlib, Seaborn)</li>
+      <li>SQL (MySQL)</li>
+      <li>Data Cleaning & Exploratory Data Analysis</li>
+      <li>Data Visualization</li>
+      <li>Machine Learning (Basics)</li>
+      <li>Excel</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
 
-<footer>
-  <p>© 2026 Atoyebi Simon Blessing | Data Analyst Portfolio</p>
-</footer>
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:atoblessing86699@gmail.com">atoblessing86699@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/atoyebi-simon-blessing" target="_blank">linkedin.com/in/atoyebi-simon-blessing</a></p>
+    <p>GitHub: <a href="https://github.com/Blessing-analytics" target="_blank">github.com/Blessing-analytics</a></p>
+  </section>
+
+  <footer>
+    <p>© 2026 Atoyebi Simon Blessing | Data Analyst Portfolio</p>
+  </footer>
 
 </body>
 </html>
